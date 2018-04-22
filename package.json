@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest --watchAll --notify"
+    "test": "jest --watchAll --notify",
+    "test:vscode": "jest --watchAll"
   },
   "dependencies": {
     "csv": "^3.0.2",
